@@ -12,7 +12,7 @@ var article = require('./routes/articles');
 
 var app = express();
 
-app.use(express.static('dist'));
+app.use(express.static('www'));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
